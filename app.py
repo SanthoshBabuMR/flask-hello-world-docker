@@ -16,7 +16,7 @@ def whoami():
     return 'I am Batman!!'
 
 @app.route('/whoamireally')   # URL '/' to be handled by main() route handler
-def whoami():
+def whoamireally():
     """Who Am I"""
     return 'I am Santhosh Babu :)'
 
