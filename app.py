@@ -15,6 +15,11 @@ def whoami():
     """Who Am I"""
     return 'I am Batman!!'
 
+@app.route('/whoamireally')   # URL '/' to be handled by main() route handler
+def whoami():
+    """Who Am I"""
+    return 'I am Santhosh Babu :)'
+
 if __name__ == '__main__':  # Script executed directly?
     print("Hello World! Built with Source 2 Image Build Strategy.")
     app.run(host='0.0.0.0', port=PORT)
